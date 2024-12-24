@@ -1,8 +1,8 @@
-# Frontend Mentor - Fylo data storage component solution
+# Frontend Mentor - Fylo data storage component solution 💻
 
 This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+## Table of contents 📍
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -15,29 +15,30 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ## Overview
 
-### The challenge
+### The challenge 💪🏾
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshot 🏞️
 
-![](./screenshot.jpg)
+![](![image](https://github.com/user-attachments/assets/7659db68-0575-43e1-b26f-bac8fa26ba6a)
 
-### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Taophycc/Fylo-data-storage-component.git)
-- Live Site URL: [Add live site URL here](https://taophycc.github.io/Fylo-data-storage-component/)
+### Links 🔗
 
-### Built with
+- Solution URL: [taophycc.github.io](https://github.com/Taophycc/Fylo-data-storage-component.git)
+- Live Site URL: [taophycc.github.io](https://taophycc.github.io/Fylo-data-storage-component/)
+
+### Built with 👨🏾‍💻
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
 
-## Author
+## Author ✍️
 
 - Website - [Taophycc](https://www.your-site.com)
 - Frontend Mentor - [@taophycc](https://www.frontendmentor.io/profile/yourusername)
