@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+    font-size: 14px;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position:100% bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    gap: 30px;
+}
+
+.first-container {
+    background-color: hsl(228, 56%, 26%);
+    border-radius:  10px 100px 10px 10px;
+    width: 40%;
+    padding: 3em;
+    padding-top: 3em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 2em;
+}
+
+.document-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.folder-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.second-container {
+    background-color: hsl(228, 56%, 26%);
+    width: 60%;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 10px;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    bottom: 150px;
+    left: 350px;
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+}
+
+.label p {
+    color: black;
+    font-size: 1rem;
+    color: rgb(175, 177, 185);
+}
+
+.label p span {
+    font-size: 3rem;
+    color: black;
+
+}
+p {
+    color: white;
+    padding-bottom: 2em;
+    margin-left: 1.6em;
+    opacity: 1;
+}
+
+span {
+    font-weight: 800;
+    opacity: 1;
+}
+.content-container {
+    width: 90%;
+    justify-self: center;
+    margin-left: 0em;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    border: 2px solid;
+}
+.content {
+    width: 70%;
+    height: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.white-circle {
+    position: sticky;
+    left: 100%;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    /* margin-left: 22.6em; */
+}
+
+.caption {
+    display: flex;
+    gap: 380px;
+    padding-top: 1em;
+}
+
+
+@media (min-width:320px) and (max-width:540px) {
+    body {
+        background-image: url(images/bg-mobile.png);
+        background-position: 100%;
+        background-size: cover;
+        
+    }
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+        padding-inline: 1.5em;
+        gap: 20px;
+        
+    }
+
+    .first-container {
+        width: 100%;
+        padding: 3.5em;
+    }
+
+    .logo-image {
+        width: 150px;
+        height: 50px;
+    }
+
+    .icon-container {
+        padding-top: 2.3em;
+    }
+
+    .document-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .folder-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .upload-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .second-container {
+        width: 100%;
+        margin-top: 0px;
+        padding-inline: 1em;
+        padding-block: 3em;
+        position: none;
+    }
+
+    .label {
+        justify-self: center;
+        left: 0px;
+        top: 160px;
+        bottom: 0px;
+        left: 65px; */
+        height: 75px;
+    }
+
+    .label p span {
+        font-weight: 750;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    span {
+        font-weight: 800;
+    }
+
+    .content {
+        height: 20px;
+    }
+    
+    .caption {
+        gap: 100px;
+        padding: 0;
+    }
+}
+
+@media (min-width:700px) and (max-width:1300px) {
+    body  {
+        background-image: url(images/bg-mobile.png);
+        background-position: 100%;
+        background-size: cover;
+    }
+
+    .label {
+        left: 175px;
+        bottom: 165px;
+        width: 200px;
+        height: 60px;
+        padding-inline: 1.2em;
+
+    }
+
+    .label p {
+        font-size: 0.9rem;
+    }
+
+    .label p span {
+        font-size: 2.5rem;
+    }
+
+    .caption {
+        gap: 100px;
+    }
+}
+
+
